@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="svg.css">
+    <title>SVG</title>
+</head>
+
+<body>
+    <h1>SVG - Scalable vector graphics</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem beatae autem assumenda modi at cum
+        temporibus maxime molestias, labore commodi odit fugit tempore magni, veritatis doloribus placeat impedit
+        suscipit mollitia eum veniam reiciendis omnis quia? Aut nemo blanditiis, est ad labore dignissimos quae.
+        Suscipit quaerat pariatur, cumque molestiae fuga voluptates!</p>¨
+    <h2>Obdélníky, čtverce (<code>rect</code>)</h2>
+    <svg width="400px" height="400px" class="pozadi">
+        <rect x="50" y="50" rx="10" ry="50" width="200" height="200" class="obdelnik2" />
+        <rect x="100" y="100" rx="10" ry="50" width="200" height="200" class="obdelnik1" />
+
+    </svg>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vitae numquam reiciendis est voluptatem.
+        Reprehenderit nesciunt quidem cumque odit minima architecto libero, assumenda exercitationem. Distinctio
+        praesentium saepe totam voluptate quia! Voluptas tempore sit animi nemo laudantium, labore quasi repudiandae
+        minus necessitatibus atque minima asperiores iure ex. Unde fugiat similique nam optio hic suscipit? Quaerat
+        cupiditate harum quia error sint dolores soluta cum, aperiam aspernatur eos corporis officiis deleniti eius rem
+        laborum id praesentium at accusamus? Natus, soluta minima perferendis labore obcaecati eligendi aut, corporis
+        dolorem dicta rerum suscipit, laudantium ratione.</p>
+    <h2>Kruh (<code>circle</code>), Elipsa (<code>ellipse</code>)</h2>
+    <svg width="400px" height="400px" class="pozadi">
+        <circle cx="100" cy="100" r="75" class="kruh" />
+        <ellipse cx="200" cy="200" rx="20" ry="80" class="kruh1" />
+    </svg>
+
+    <h2>Cvičení 1</h2>
+    <svg width="400px" height="400px" class="pozadi">
+        <circle cx="200" cy="200" r="100" class="kruh1" />
+        <circle cx="350" cy="200" r="100" class="kruhx" />
+        <circle cx="50" cy="200" r="100" class="kruhx" />
+        <circle cx="200" cy="350" r="100" class="kruhx" />
+        <circle cx="200" cy="50" r="100" class="kruhx" />
+    </svg>
+
+    <h2>Úsečka (<code>line</code>)</h2>
+    <svg width="400px" height="400px" class="pozadi">
+        <line x1="0" y1="0" x2="400" y2="400" style="stroke: indigo;" />
+    </svg>
+    <h2>Cvičení 2</h2>
+    <svg height="200" width="200">
+        <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:30" />
+        <line x1="0" y1="200" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:30" />
+    </svg>
+    <h2>Mnohoúhleník (<code>polygon</code>)</h2>
+    <svg height="210" width="500">
+        <polygon points="100,0 50,100 100,200 150,100" style="fill:lime;stroke:purple;stroke-width:1" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <svg height="210" width="500">
+        <polygon points="0,0 200,0 0,200" class="pravouhlyTrojuhelnik" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
+
+    <h2>Lomená úsečka (<code>polyline</code>)</h2>
+    <svg height="500" width="500" class="pozadi">
+        <polyline points="5,0 5,80 80,0 80,80 80,160 160,160 80,240 160,320" class="lomenaUsecka" />
+    </svg>
+
+    <h2>Cvičení 3</h2>
+    <svg height="100" width="100">
+        <a xlink:href="https://www.seznam.cz">
+            <rect rx="10" width="100" height="100" style="fill:red" />
+            <line x1="10" y1="10" x2="90" y2="90" style="stroke:white; stroke-width:10" />
+            <line x1="10" y1="90" x2="90" y2="10" style="stroke:white; stroke-width:10" />
+        </a>
+    </svg>
+</body>
+
+</html>

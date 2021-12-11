@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.sloupec {
+    width: 23%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.domek {
+    fill:none;
+    stroke:black;
+    stroke-width:4;
+}
+
+.czflag {
+    fill: none;
+    stroke:black;
+    stroke-width:1;
+}
+
+.klin {
+    fill:#11447e;
+}
+
+.red {
+    fill: #d7131a;
+}
+
+.pozadi {
+    fill: #006aa9;
+}
+
+.svedskyKriz {
+    fill: #fecd00;
+}
+
+.sipka {
+    stroke: gray;
+    stroke-width: 2px;
+    fill: #68de40;
+}
+
+.sipka:hover {
+    stroke: #0f39f8;
+    fill: #33e7ea;
+}
+
+@media (max-width: 1400px) {
+    .sloupec {
+        width: 50%;
+    }
+}
+@media (max-width: 800px) {
+    .sloupec {
+        width: 100%;
+    }
+}

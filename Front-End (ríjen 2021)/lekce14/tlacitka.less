@@ -1,0 +1,24 @@
+@barva1: #ffffff;
+@barva2: #44a7ce;
+@sirka: 150px;
+
+.btn-moje{
+    background: @barva1;
+    color: @barva2;
+    border-color: @barva2;
+    border-radius: 0;
+    width: @sirka;
+    a {
+        color: @barva1;
+    }
+    p{
+        color: @barva2;
+        .velboud {
+            width: @sirka*2;
+        }
+    }
+}
+.btn-moje:hover{
+    background: @barva2;
+    color: @barva1;
+}

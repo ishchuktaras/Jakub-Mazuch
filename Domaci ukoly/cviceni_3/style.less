@@ -1,0 +1,16 @@
+@bg_color_1: #632c2c;
+@bg_color_2: #5f151575;
+@color_1: white;
+@color_2: black;
+@width_1: 100%;
+tr:hover:not(:first-child) {
+    background-color: @bg_color_1 !important;
+    @color: color_1;
+}
+tr:nth-child(2n) {
+    background-color: @bg_color_2;
+    @color: color_2;
+}
+table {
+    width: @width_1; 
+}

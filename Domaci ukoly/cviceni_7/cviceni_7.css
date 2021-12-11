@@ -1,0 +1,37 @@
+.svg{
+    position: relative;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .loader{
+    position: absolute;
+    fill: none;
+    stroke-width: 8px;
+    stroke-linecap: round;
+    stroke: #0000ff;
+  }
+  .loader.bg{
+    stroke-width: 10px;
+    stroke: #7fffd4;
+  }
+  .animate{
+    stroke-dasharray: 242.6;
+    animation: fill-animation 1s cubic-bezier(1,1,1,1) 0s infinite;
+  }
+  
+  @keyframes fill-animation{
+    0%{
+      stroke-dasharray: 40 242.6;
+      stroke-dashoffset: 0;
+    }
+    50%{
+      stroke-dasharray: 141.3;
+      stroke-dashoffset: 141.3;
+    }
+    100%{
+      stroke-dasharray: 40 242.6;
+      stroke-dashoffset: 282.6;
+    }
+  }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .sloupec {
+            width: 50%;
+            float: left;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .pozadi {
+            fill: #006aa9;
+        }
+
+        .svedskyKriz {
+            fill: #fecd00;
+        }
+
+        .sipka {
+            stroke: green;
+            stroke-width: 2px;
+            fill: rgb(138, 255, 138);
+        }
+
+        .sipka:hover {
+            stroke: red;
+            fill: rgb(255, 183, 183);
+        }
+
+        @media (max-width: 630px) {
+            .sloupec {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sloupec">
+        <h2>Švédská vlajka</h2>
+        <svg width="300" height="300"">
+            <rect width=" 300" height="187.5" class="pozadi" />
+        <polygon
+            points="0,75 0,112.5 93.75,112.5 93.75,187.5 131.25,187.5 131.25,112.5 300,112.5 300,75 131.25,75 131.25,0 93.75,0 93.75,75"
+            class="svedskyKriz" />
+        </svg>
+    </div>
+    <div class="sloupec">
+        <h2>Šipka</h2>
+        <svg width="300" height="300">
+            <a xlink:href="https://www.seznam.cz/" target="_blank">
+                <polygon points="0,100 0,200 200,200 200,300 300,150 200,0 200,100" class="sipka" />
+            </a>
+        </svg>
+    </div>
+</body>
+
+</html>

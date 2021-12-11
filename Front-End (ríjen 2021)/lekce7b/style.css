@@ -1,0 +1,21 @@
+.jablko{
+    border-bottom: 1px dotted black;
+    position: relative;
+}
+.jablko .vysvetlivka{
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    color:white;
+    top: 110%;
+    left: -50%;
+    width: 120px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.jablko:hover{
+    background-color: rgb(255, 255, 171);
+}
+.jablko:hover .vysvetlivka{
+    visibility: visible;
+}

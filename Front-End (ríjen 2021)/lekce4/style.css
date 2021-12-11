@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr,td{
+    border: 1px solid black;
+    height: 60px;
+    color: transparent;
+}
+tr:nth-child(2n+1) td:nth-child(2n+1), tr:nth-child(2n) td:nth-child(2n){
+    background-color: rgb(71, 163, 255);
+}
+tr:nth-child(2n+1) td:nth-child(2n), tr:nth-child(2n) td:nth-child(2n+1){
+    background-color: rgb(0, 0, 152);
+}

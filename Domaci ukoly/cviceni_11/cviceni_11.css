@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.levy {
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+}
+.pravy {
+    width: 75%;
+    float: left;
+    margin-top: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(160, 160, 160);
+}
+input[type=submit]{
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    float: right;
+    border: 2px solid rgb(78, 131, 0);
+    border-radius: 4px;
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color:black;
+}
+input[type=submit]:active{
+    background-color: rgb(78, 131, 0);
+    color:white;
+}

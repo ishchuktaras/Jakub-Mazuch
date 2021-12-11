@@ -1,0 +1,20 @@
+.btn-moje {
+  background: #ffffff;
+  color: #44a7ce;
+  border-color: #44a7ce;
+  border-radius: 0;
+  width: 150px;
+}
+.btn-moje a {
+  color: #ffffff;
+}
+.btn-moje p {
+  color: #44a7ce;
+}
+.btn-moje p .velboud {
+  width: 300px;
+}
+.btn-moje:hover {
+  background: #44a7ce;
+  color: #ffffff;
+}

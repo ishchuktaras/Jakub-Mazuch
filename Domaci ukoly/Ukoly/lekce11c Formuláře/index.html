@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formuláře</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At distinctio dicta delectus laborum aspernatur esse
+        assumenda dignissimos ex quas! Expedita omnis hic et nemo numquam accusantium perferendis repudiandae in,
+        praesentium natus doloremque eum eius! Sapiente dolor omnis harum pariatur laudantium placeat officiis ratione
+        voluptate atque sit, non possimus voluptatibus, maxime optio fuga officia nulla deleniti eos sint consequatur.
+        Magnam quam maxime labore. Doloremque saepe, ipsa magnam fugit hic quod sed!</p>
+    <h2>Registrační formulář</h2>
+    <div class="conteiner">
+        <form action="#">
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">E-mail:</label>
+                </div>
+                <div class="col-75">
+                    <input name="email" type="email" value="@">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <label for="jmeno">Jméno:</label>
+                </div>
+                <div class="col-75">
+                    <input name="jmeno" type="text" placeholder="">
+                </div>
+            </div>
+            <label for="prijmeni">Příjmení:</label>
+            <input name="prijmeni" type="text">
+            <label for="datumNarozeni">Datum narození:</label>
+            <input name="datumNarozeni" type="date" min="1915-01-01" max="2003-11-01">
+            <label for="heslo1">Heslo: </label>
+            <input name="heslo1" type="password">
+            <label for="heslo2">Heslo ještě jednou: </label>
+            <input name="heslo2" type="password">
+            <input type="submit" value="Registrovat">
+    </div>
+
+    </form>
+</body>
+
+</html>

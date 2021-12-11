@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="svg.css">
+    <title>SVG</title>
+    
+</head>
+<body>
+    <h1>SVG - scalable vector graphics</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis facere dolore iste quia nisi excepturi repellendus? Eius quasi quae animi tempore debitis provident, quia explicabo dignissimos nesciunt error rerum officia, aspernatur eaque maxime dolores repellendus corporis! Ratione dolorum perspiciatis aut? Iure repellendus porro perspiciatis, eaque tempora at eos placeat amet facilis sunt a iusto modi cupiditate illum hic ratione, atque impedit tenetur illo dolores ipsam voluptatem fuga sit. Deleniti repudiandae inventore reiciendis aspernatur atque eaque assumenda ipsa, architecto sed ducimus sequi nemo commodi dolore voluptas omnis iusto. Facere saepe nobis magnam odit recusandae asperiores obcaecati accusantium reiciendis! Dolores reiciendis praesentium, unde recusandae, facere architecto doloribus dolore ipsam incidunt deserunt quibusdam alias dolor fuga voluptate explicabo sint similique, corrupti reprehenderit possimus dignissimos quis aliquam? Dignissimos dolorum aliquid dolores. Accusamus nisi facere praesentium quas, neque est explicabo deserunt esse recusandae dolorem ipsum aspernatur quasi distinctio ducimus consectetur ab mollitia magni odio officiis? Sequi iure voluptate voluptas, enim ducimus exercitationem iste sint assumenda neque repudiandae ut rerum minima fugit architecto distinctio, dolorum quis ipsum repellendus rem dolor! Magni corporis modi adipisci fugit!</p>
+
+    <h2>Obdelniki čtverce</h2>
+    
+    <svg width="400" height="400" class="pozadi">
+        <rect x="40" y="70" rx="20" ry="40" width="200" height="200" class="obdelnik1" />
+
+        <rect x="20" y="40" rx="20" ry="40" width="200" height="200" class="obdelnik2" />
+    </svg>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sequi pariatur maiores atque odio impedit rem dignissimos magni, at fuga, obcaecati et dolorem dolore ipsam voluptas! Iste maxime, voluptatum vel adipisci voluptates aut placeat sint nobis exercitationem eligendi blanditiis atque quos qui nisi veniam assumenda. Perspiciatis maxime rem quam nam magnam sunt, tenetur eos ipsam nihil dolore magni eum? Quasi impedit in ipsum recusandae a corrupti blanditiis tempora mollitia porro, quam pariatur error molestias adipisci sunt, et assumenda, officiis nam?</p>
+    <h2>Kruh, Elipsa</h2>
+    <svg width="400" height="400" class="pozadi">
+        <circle cx="130" cy="150" r="40" class="kruh"/>
+        <circle cx="130" cy="210" r="40" class="kruhx"/>
+        <circle cx="70" cy="150" r="40" class="kruhx"/>
+        <circle cx="130" cy="90" r="40" class="kruhx"/>
+        <circle cx="190" cy="150" r="40" class="kruhx"/>
+
+        <ellipse cx="200" cy="200" rx="50" ry="90" class="kruh1" />"
+    </svg>
+    <h2>Usečka LINE</h2>
+    <svg width="400" height="400" class="pozadi">
+        <line x1="0" y1="0" x2="400" y2="400" style="stroke: blue;" />
+    </svg>
+    <svg width="600" height="400" class="pozadi">
+        <line x1="100" y1="0" x2="500" y2="400" style="stroke: rgb(228, 117, 13);" />
+    </svg>
+
+    <p>Poligon</p>
+    <svg height="300" width="500">
+        <polygon points="100,0 50,100 100,200 150,100" style="fill:lime;stroke:purple;stroke-width:1"/>
+    </svg>
+
+    <p>Lomená úsečka</p>
+    <svg height="500" width="500">
+        <polyline points="0,0 80,0 80,80 80,160 160,160 80,20 160,320" />
+    </svg>
+
+    <p>Křížek</p>
+    <svg height="200" width="200" class="krizek">
+        <line x1="0" y1="0" x2="190" y2="190" />
+        <line x1="190" y1="0" x2="0" y2="190" />
+    </svg>
+   
+</body>
+</html>

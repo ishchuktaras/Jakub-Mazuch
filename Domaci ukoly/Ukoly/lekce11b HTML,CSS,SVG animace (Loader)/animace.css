@@ -1,0 +1,33 @@
+.svg {
+    position: relative;
+}
+.loader {
+    position: absolute;
+    fill: none;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    stroke: rgb(64, 0, 148);
+}
+.loader.bg{
+    stroke-width: 10px;
+    stroke: rgb(207, 205, 245);
+}
+.animate{
+    stroke-dasharray: 242.6;
+    animation: fill-animation 1s cubic-bezier(1,1,1,1) 0s infinite;
+}
+  
+@keyframes fill-animation{
+  0%{
+    stroke-dasharray: 40 242.6;
+    stroke-dashoffset: 0;
+  }
+  50%{
+    stroke-dasharray: 141.3;
+    stroke-dashoffset: 141.3;
+  }
+  100%{
+    stroke-dasharray: 40 242.6;
+    stroke-dashoffset: 282.6;
+  }
+  }

@@ -1,0 +1,8 @@
+@background-color_1:#e49328;
+@background-color_2:#c74b4b;
+tr:nth-child(2n) td:nth-child(2n), tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: @background-color_1;
+}
+tr:nth-child(2n+1) td:nth-child(2n), tr:nth-child(2n) td:nth-child(2n+1) {
+    background-color: @background-color_2;
+}

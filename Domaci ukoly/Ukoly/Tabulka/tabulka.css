@@ -1,0 +1,28 @@
+body{
+    background: lightsteelblue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    counter-reset: cislovani;
+
+}
+tr:hover:not(:first-child) {
+    background-color: rgba(158, 131, 131, 0.445) !important;
+    color: white;
+}
+th,tr{
+    text-align:left ;
+    padding: 10px;
+}
+tr:nth-child(2n) {
+    background: white;
+    color: black;
+}
+.tabulka{
+    overflow-x: auto;
+}
+th:nth-child(n+3)::after{
+    counter-increment: cislovani;
+    content: ": " counter(cislovani);

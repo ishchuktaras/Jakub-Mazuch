@@ -1,0 +1,135 @@
+body {
+    background-color: lightblue;
+}
+
+.con {
+    animation-name: animace;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    margin: 10px;
+
+}
+
+.con1 {
+    animation-name: animace1;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    margin: 10px;
+
+}
+
+.con2 {
+    animation-name: animace2;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    margin: 10px;
+
+}
+
+.con3 {
+    animation-name: animace3;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    margin: 10px;
+
+}
+
+.con4 {
+    animation-name: animace4;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    margin: 10px;
+
+}
+
+.con5 {
+    animation-name: animace5;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    margin: 10px;
+
+}
+
+.animate {
+    width: 150px;
+    height: 150px;
+    background-color:lightcoral;
+    position: relative;
+
+}
+
+.animate1 {
+    width: 150px;
+    height: 50px;
+    background-color:rgb(240, 229, 128);
+    position: relative;
+
+}
+
+.animate2 {
+    width: 150px;
+    height: 50px;
+    background-color:rgb(65, 112, 21);
+    position: relative;
+
+}
+
+.animate3 {
+    width: 150px;
+    height: 50px;
+    background-color:rgb(240, 128, 231);
+    position: relative;
+
+}
+
+.animate4 {
+    width: 150px;
+    height: 50px;
+    background-color:rgb(240, 128, 128);
+    position: relative;
+
+}
+
+.animate5 {
+    width: 150px;
+    height: 50px;
+    background-color:rgb(4, 10, 2);
+    position: relative;
+
+}
+
+@keyframes animace {
+
+    0% {background-color: yellow; left: 0px;}
+    50% {background-color: tomato; left: 500px;}
+    100% {background-color: yellow; left: 0px;}
+}
+
+@keyframes animace1 {
+
+    0% {background-color: rgb(0, 255, 242); left: 0px;}
+    
+    100% {background-color: yellow; left: 100px;}
+}
+
+@keyframes animace2 {
+
+    0% {background-color: yellow; left: 0px;}
+    100% {background-color: rgb(0, 89, 255); left: 125px;}
+}
+
+
+
+@keyframes animace3 {
+
+    0% {background-color: rgb(255, 72, 0); left: 0px;}
+    100% {background-color: yellow; left: 150px;}
+}
+
+@keyframes animace4 {
+
+    0% {background-color: yellow; left: 0px;}
+    100% {background-color: rgb(65, 65, 47); left: 100px;}
+}
+
+

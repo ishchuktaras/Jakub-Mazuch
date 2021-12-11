@@ -1,0 +1,9 @@
+tr:hover:not(:first-child) {
+  background-color: #632c2c !important;
+}
+tr:nth-child(2n) {
+  background-color: #5f151575;
+}
+table {
+  width: 100%;
+}

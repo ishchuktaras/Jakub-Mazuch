@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulář</title>
+</head>
+<body>
+    <h1>Formulář</h1>
+
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="levy">
+                    <label for="jmeno">Jméno: </label>
+                </div>
+                <div class="pravy">
+                    <input type="text" id="jmeno" name="jmeno" placeholder="Napište Vaše ctěné jméno...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="levy">
+                    <label for="prijmeni">Příjmení: </label>
+                </div>
+                <div class="pravy">
+                    <input type="text" id="prijmeni" name="prijmeni" placeholder="Napište Vaše ctěné příjmení...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="levy">
+                    <label for="zeme">Země: </label>
+                </div>
+                <div class="pravy">
+                    <select id="zeme" name="zeme">
+                        <option value="1">Česká republika</option>
+                        <option value="1">Slovensko</option>
+                        <option value="1">Rakousko</option>
+                        <option value="1">Maďarsko</option>
+                        <option value="1">Německo</option>
+                        <option value="1">Polsko</option>
+                        <option value="1">Zimbabwe</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="levy">
+                    <label for="predmet">Předmět: </label>
+                </div>
+                <div class="pravy">
+                    <textarea id="predmet" placeholder="Napište obsah zprávy..." style="height: 200px;"></textarea>
+                </div>
+                
+            </div>
+            <div class="row">
+                <input type="submit" value="Odeslat">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

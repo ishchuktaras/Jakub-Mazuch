@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+}
+form {
+    background-color:#86af33;
+}
+h1 {
+    text-shadow: 1px 1px 3px black;
+}
+button {
+    text-shadow: 2px 2px 7px black;
+}
+input[zprava] {
+    min-height: 180px;
+    background-image: url("images/pen.svg");
+}
+input[telefon] {
+    background-image:url("images/telephone.svg");
+    position: relative;
+}
+button:focus {
+    background-color:white;
+    color:#86af33 !important;
+    text-shadow: none;
+}
+@media screen and (max-width:600px) {
+    .col {
+        display: block;
+        width: 100%;
+    }
+}

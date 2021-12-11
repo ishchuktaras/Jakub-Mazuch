@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formular</title>
+
+    <link rel="stylesheet" href="cviceni_11.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container border border-success  my-5">
+        <form>
+            <div class="row  my-5">
+                <div class="form-group">
+                    <div class="levy text-end pe-4">
+                        <label for="jmeno">Jméno:</label>
+                    </div>
+                    <div class="pravy w-50">
+                        <input name="jmeno" type="text" placeholder="Jan">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="levy text-end pe-4">
+                        <label for="prijmeni">Příjmení:</label>
+                    </div>
+                    <div class="pravy w-50">
+                        <input name="prijmeni" type="text" placeholder="Novák">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="levy text-end pe-4">
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <div class="pravy w-50">
+                        <input name="email" type="email" placeholder="jan.novak@mail.cz">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="levy text-end pe-4">
+                        <label for="heslo1">Heslo: </label>
+                    </div>
+                    <div class="pravy w-50">
+                        <input name="heslo1" type="password" placeholder="8-20 znaků">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="levy text-end pe-4">
+                        <label for="heslo2">Heslo znovu: </label>
+                    </div>
+                    <div class="pravy w-50">
+                        <input name="heslo2" type="password" placeholder="8-20 znaků">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="levy text-end pe-4">
+                        <label for="pohlavi">Pohlaví: </label>
+                    </div>
+                    <div class="pravy w-50">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Muž</option>
+                            <option value="2">Žena</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group col-3 mx-auto">
+                    <input type="submit" value="Založit účet">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

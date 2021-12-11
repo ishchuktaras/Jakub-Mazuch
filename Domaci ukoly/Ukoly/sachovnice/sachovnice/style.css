@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(105, 105, 105, 0.658);
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+table, th, tr, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+table {
+   counter-reset: column;
+   margin-left: 50px;
+}
+
+th {
+    background-color: rebeccapurple;
+}
+
+tr {
+    counter-reset: row;
+}
+
+td {
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+tr:nth-child(2n) td:nth-child(2n), tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: rgba(15, 15, 15, 0.733);
+}
+
+tr:not(:first-child)>th::before {
+    counter-increment: column;
+    content: counter(column);
+}
+
+tr:first-child>th:not(:first-child)::before {
+    counter-increment: row;
+    content: counter(row, lower-alpha);
+}
+

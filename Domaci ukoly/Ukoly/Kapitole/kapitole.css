@@ -1,0 +1,44 @@
+body{
+    counter-reset: section;
+}
+
+*{
+    box-sizing: border-box;
+}
+.kap1, .kap3, .kap4{
+   
+    float:left;
+    width: 20%;
+    border: 2px solid black;
+}
+.kap2{
+    width: 40%;
+    float: left;
+    background-color: brown;
+}
+.kap1{
+    background-color: burlywood;
+}
+.kap3{
+    background-color: cadetblue;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+}
+h2{
+    padding-left: 10px;
+}
+.kap4:hover, .kap3:hover, .kap2:hover, .kap1:hover{
+    background-color:rgba(216, 191, 216, 0.267) !important;
+    color: rgb(148, 138, 138);
+}
+h2::before{
+    counter-increment: section;
+    content: "Kapitole " counter(section)": " ;
+}
+@media print and (max-width: 1200px){
+    .kap1, .kap2, .kap3, .kap4{
+        width: 100%;
+    }
+}

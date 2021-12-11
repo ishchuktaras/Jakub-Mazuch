@@ -1,0 +1,30 @@
+body{
+    background: lightgray;
+    text-align: center;
+    
+}
+.svg{
+    float: right;
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+.sipka:hover{
+    fill: aqua;
+    
+}
+.sipka:active{
+    fill: rgb(62, 78, 78);
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .svg { 
+    float: none;  
+    width: 100%;
+    padding: 0;
+        }
+    }
+    

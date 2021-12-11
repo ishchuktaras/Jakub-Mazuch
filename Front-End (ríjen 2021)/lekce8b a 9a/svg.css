@@ -1,0 +1,35 @@
+.pozadi{
+    background-color: #acacac;
+}
+.obdelnik1{
+    fill: indigo;
+    stroke-width: 2px;
+    stroke: black;
+    opacity: 0.8;
+}
+.obdelnik2{
+    fill: rgb(44, 240, 26);
+    stroke-width: 2px;
+    stroke: black;
+}
+.kruh{
+    fill: rgb(131, 26, 13);
+    stroke-width: 3px;
+    stroke: rgb(32, 2, 2);
+}
+.kruh1{
+    fill: rgb(237, 253, 5);
+}
+.kruhx{
+    fill: #acacac;
+}
+.pravouhlyTrojuhelnik {
+    fill:rgb(9, 20, 54);
+    stroke:rgb(0, 0, 0);
+    stroke-width:2;
+}
+.lomenaUsecka{
+    stroke: black;
+    stroke-width: 10;
+    fill: none;
+}

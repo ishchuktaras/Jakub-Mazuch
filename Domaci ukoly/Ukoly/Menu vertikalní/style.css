@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 15px;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #484d4b91;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  svg{
+      color: rgb(23, 177, 204);
+      font-size: larger;
+  }
+ 
+  

@@ -1,0 +1,9 @@
+.cell>td:hover{
+    background-color: rgb(179, 179, 179);
+}
+.cell>td:active{
+    background-color: rgb(119, 173, 255);
+}
+td{
+    width: 12%;
+}

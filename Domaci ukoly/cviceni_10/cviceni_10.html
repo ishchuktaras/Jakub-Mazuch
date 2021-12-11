@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="cviceni_10.css">
+
+</head>
+
+<body>
+    <div class="container" style="background-color: #1f5891;">
+        <div class="col my-3">
+            <form>
+                <div class="form-group mx-5 my-2">
+                    <div class="row py-2 text-light">
+                        <label for="zprava">Zpráva:</label>
+                    </div>
+                    <div class="row">
+                        <textarea class="form-control border-0 rounded-0 " id="zprava"
+                            placeholder="Sem napište zprávu..." rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="form-group mx-5 my-2">
+                    <div class="row pb-2 text-light">
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <div class="row">
+                        <input type="email" class="form-control border-0 rounded-0" id="email"
+                            placeholder="Sem napište Váš e-mail...">
+                    </div>
+                </div>
+                <div class="form-check mx-3 my-2">
+                    <div class="row pt-3 text-light">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-label">
+                            Souhlasím s podmínkami GDPR
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn border-light rounded-0 mx-5 my-3">ODESLAT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

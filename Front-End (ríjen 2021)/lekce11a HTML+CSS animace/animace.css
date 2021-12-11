@@ -1,0 +1,93 @@
+.animace1{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: relative;
+    /* animace */
+    animation-name: animace1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.obdelnik{
+    width: 0px;
+    height: 20px;
+    position: relative;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.animace2{ 
+    background-color: red;
+    animation-name: animace2;
+}
+.animace3{ 
+    background-color: blue;
+    animation-name: animace3;
+}
+.animace4{ 
+    background-color: brown;
+    animation-name: animace4;
+}
+.animace5{ 
+    background-color: orange;
+    animation-name: animace5;
+}
+@keyframes animace2 {
+    0%  {width: 0px}
+    100%    {width: 700px;}
+}
+@keyframes animace3 {
+    0%  {width: 0px}
+    100%    {width: 400px;}
+}
+@keyframes animace4 {
+    0%  {width: 0px}
+    100%    {width: 600px;}
+}
+@keyframes animace5 {
+    0%  {width: 0px}
+    100%    {width: 500px;}
+}
+@keyframes animace1 {
+    0%      {background-color: yellow; left:0px;}
+    50%     {background-color: green; left: 500px;}
+    100%    {background-color: yellow; left:0px;}
+}
+
+
+
+.druhyObdelnik {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: druhyObdelnik;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes druhyObdelnik {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .tretiObdelnik{
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+      transition: width 3s;
+  }
+  .tretiObdelnik:hover{
+      width: 600px;
+      background-color: chartreuse;
+  }
+  #linearni {
+      transition-timing-function: ease-out;
+  }

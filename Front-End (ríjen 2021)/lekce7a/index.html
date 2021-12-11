@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Tabulka (14.10.2021)</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px;
+        }
+
+        .tabulka {
+            overflow-x: auto;
+        }
+
+        tr {
+            counter-reset: cislovani;
+        }
+
+        tr:nth-child(2n) {
+            background-color: rgb(223, 223, 223);
+        }
+
+        tr:hover:not(:first-child) {
+            background-color: rgb(46, 46, 46);
+            color: white;
+        }
+
+        th:nth-child(n+3)::after {
+            counter-increment: cislovani;
+            content: ": "counter(cislovani);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabulka</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aut pariatur nihil vel similique dolores
+        commodi saepe est dignissimos odio veritatis dolorum debitis, beatae numquam officiis blanditiis nostrum
+        consequuntur sed autem repellat adipisci repellendus? Ullam architecto nulla placeat harum saepe eos laudantium
+        quae ut. Vel quam provident temporibus aperiam laborum nostrum perspiciatis quia illum nulla, quod minima harum
+        sint. Illum iure voluptates nisi facere distinctio ipsam, unde maiores possimus numquam similique laboriosam
+        alias eligendi aspernatur sed dicta odit, provident eius velit nulla nihil eum corrupti fuga optio cum. Quidem
+        quia saepe nihil odit tempore, soluta dolores, amet minus, maiores eos aspernatur blanditiis. Iste cupiditate
+        doloribus recusandae quisquam praesentium eum facere totam, asperiores est magnam minus veritatis, reprehenderit
+        sequi sed voluptate blanditiis exercitationem non repellat molestiae ipsum quas. Quis vero error rem dicta
+        cupiditate libero ipsum natus iste laborum expedita eligendi nisi ea temporibus, asperiores magni repudiandae
+        consequatur ratione nulla quidem nesciunt! Veritatis reprehenderit asperiores qui ducimus quasi soluta laborum
+        dignissimos, nam nostrum quos perspiciatis impedit eos non voluptate inventore. In, nesciunt! Quidem atque
+        veniam voluptates quasi velit? Velit, veritatis accusantium minima eius eligendi unde impedit deserunt corporis
+        placeat repudiandae ipsum incidunt praesentium voluptate iusto, consequatur ex? Architecto a, temporibus ab quae
+        omnis provident suscipit non magnam dolorem labore, explicabo quia officia? Debitis, suscipit aliquid porro esse
+        quos quisquam voluptas velit ipsa illum nesciunt temporibus provident voluptates impedit eos, mollitia,
+        praesentium magni! Doloribus quis provident fuga commodi tempore laboriosam obcaecati illo consequuntur ab
+        eveniet recusandae veniam fugit rerum repellendus, adipisci distinctio incidunt accusantium dolorum! Id corrupti
+        voluptate pariatur officiis nemo qui repudiandae, quae aperiam. Nam unde reprehenderit iste, rerum iure, quis
+        nisi in voluptatem repellendus corrupti vero quibusdam sequi nesciunt neque ut consectetur adipisci alias
+        dolorem amet quos eos? Pariatur dicta possimus illum eaque sapiente iste voluptatum nulla similique omnis minus?
+    </p>
+    <div class="tabulka">
+        <table>
+            <tr>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+                <th>Body</th>
+            </tr>
+            <tr>
+                <td>Lucifer</td>
+                <td>Novák</td>
+                <td>15</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+                <td>80</td>
+                <td>45</td>
+                <td>30</td>
+                <td>70</td>
+                <td>80</td>
+                <td>99</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Miloš</td>
+                <td>Vávra</td>
+                <td>15</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+                <td>80</td>
+                <td>45</td>
+                <td>30</td>
+                <td>70</td>
+                <td>80</td>
+                <td>99</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Alena</td>
+                <td>Brožová</td>
+                <td>15</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+                <td>80</td>
+                <td>45</td>
+                <td>30</td>
+                <td>70</td>
+                <td>80</td>
+                <td>99</td>
+                <td>98</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

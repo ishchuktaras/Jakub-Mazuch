@@ -1,0 +1,27 @@
+.pozadi{
+    background: rgb(202, 176, 176);
+}
+.obdelnik1{
+    fill: rgb(151, 106, 184);
+    stroke-width: 5px;
+    stroke:rgb(14, 240, 221);
+    
+}
+.obdelnik2{
+    fill: rgb(68, 214, 55);
+    stroke-width: 5px;
+    stroke:rgb(14, 240, 221);
+    opacity: 0.8;
+}
+.kruh{
+    fill: rgb(44, 48, 40);
+}
+.kruhx{
+    fill: rgb(202, 176, 176);
+}
+.krizek{
+    stroke:rgb(228, 215, 215);
+    stroke-width:10;
+    background: blue;
+    margin: 50px;
+}

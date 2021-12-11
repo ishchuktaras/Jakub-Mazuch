@@ -1,0 +1,25 @@
+body{
+    background: lightgoldenrodyellow;
+}
+.jablko{
+    text-decoration: underline dotted;
+    position: relative;
+}
+
+.jablko .vysvetlivka{
+    visibility: hidden;
+    position: absolute;
+    background: black;
+    color: white;
+    top: 110%;
+    left: -50%;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.jablko:hover{
+    background-color: rgb(236, 211, 211);
+}
+.jablko:hover .vysvetlivka{
+    visibility: visible;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Šachovnice</title>
+    <style>
+        body{
+            counter-reset: sloupce;
+        }
+        table{
+            width: 100%;
+            text-align: center;            
+            counter-reset: radky;
+        }
+        table, td{
+            border-collapse: collapse;
+            border: 1px solid black;            
+        }
+        tr{
+            height: 70px;
+            
+        }
+        tr:nth-child(2n) td:nth-child(2n), tr:nth-child(2n+1) td:nth-child(2n+1){
+            background-color: rgb(126, 61, 41);
+        }
+        tr:nth-child(2n+1) td:nth-child(2n), tr:nth-child(2n) td:nth-child(2n+1){
+            background-color: rgb(236, 236, 202);
+        }
+        .hor::before{
+            counter-increment: sloupce;
+            content: counter(sloupce, lower-alpha);
+        }
+        .ver::before{
+            counter-increment: radky;
+            content: counter(radky);
+        }
+    </style>
+</head>
+<body>
+    <!-- Totéž jako 10b metodou podle Zuzky -->
+    <h1>Šachovnice</h1>
+
+    <table>
+        <tr>
+            <th> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+            <th class="hor"> </th>
+        </tr>
+        <tr>
+            <th class="ver"> </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>  
+            <th class="ver"> </th>          
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <th class="ver"> </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr> 
+            <th class="ver"> </th>           
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <th class="ver"> </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>     
+            <th class="ver"> </th>       
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <th class="ver"> </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr> 
+            <th class="ver"> </th>           
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+</body>
+</html>
